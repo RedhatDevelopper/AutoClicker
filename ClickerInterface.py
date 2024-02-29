@@ -101,7 +101,7 @@ keyboard.on_press(on_key_press)
 
 # Création de la fenêtre principale
 root = tk.Tk()
-root.title("Emerald")
+root.title("RedHat")
 
 # Variables de contrôle
 autoclick_running = False
@@ -120,7 +120,7 @@ container = ttk.Frame(root, padding="20", relief="groove", borderwidth=2)
 container.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
 # Titre
-title_label = ttk.Label(container, text="Emerald", font=("Segoe UI", 18))
+title_label = ttk.Label(container, text="RedHat", font=("Segoe UI", 18))
 title_label.grid(row=0, column=0, columnspan=2, pady=(0, 10))
 
 # Vitesse du clic
